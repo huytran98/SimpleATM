@@ -39,3 +39,6 @@ Please upload the code for this project to GitHub or anywhere, and post a link t
    - Return to the main menu by selecting ```Exit```.
    - Select to login as ```2. User``` and enter your PIN.
    - Choose any of the options to modify or view the balance on your account.
+
+## Author's notes
+This program is simplified version of an ATM machine. It is designed for the user to be able to create, delete, and modify accounts inside and outside of the program easily through C++ File Handling. Accounts created will stay in the ```user.txt``` file even when the program is terminated and reaccessible when the program relaunches. This program is not developed with a UI nor a card reading program. Instead, an inputable account number system was used to replace the use of an actual card scanner.
