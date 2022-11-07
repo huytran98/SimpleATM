@@ -55,7 +55,7 @@ public:
 	// Function displaying the data
 	void showData(void)
 	{
-		cout << "Username:" << username
+		cout << "\nAccount Number:" << username
 			<< ", Password:" << password
 			<< ", Balance:" << balance
 			<< endl;
@@ -183,7 +183,7 @@ mainmenu:
 				// sleep(4);
 				goto user;
 			case 4:
-				cout << "Thank you";
+				cout << "Thank you\n";
 				break;
 			}
 		}
@@ -331,7 +331,8 @@ void atm::updateuserasdeposit(char* uname)
 			cin >> b;
 			a.balance = a.balance + b;
 			cout << "\nBalance is:"
-				<< a.balance;
+				<< a.balance
+				<<"\n";
 			temp.write((char*)&a, sizeof(a));
 		}
 		else {
@@ -376,7 +377,8 @@ void atm::updateuseraswithdraw(char* uname)
 				temp.write((char*)&a,
 						sizeof(a));
 				cout << "\nBalance is:"
-					<< a.balance;
+					<< a.balance
+					<<"\n";
 			}
 		}
 		else {
