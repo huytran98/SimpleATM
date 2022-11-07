@@ -30,8 +30,9 @@ user.txt - File management containing information about the existing accounts cr
 # Build and Devel
 
 1. Clone this repo
-2. Run the script ```./run``` to compile and run.
-3. Follow the on-screen prompts of the controller
+2. Make sure the a proper C++ compiler is installed on your system. This build was created on Ubuntu 18.04.
+3. Run the script ```./run``` to compile and run.
+4. Follow the on-screen prompts of the controller
    - First you will be prompted to login as an admin or a user. Create a user account by logging in as an ```1. Administrator``` with the ```PIN : 1234```.
    - Create a new user and insert a ```account number```, ```PIN```, and a ```starting balance```.
    - ```View all users``` to make sure the account is created with the right information.
