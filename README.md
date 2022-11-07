@@ -24,8 +24,8 @@ Please upload the code for this project to GitHub or anywhere, and post a link t
 
 ## Directory
 
-SimpleATM.cpp - ATM class file containing functions to create, delete, and modify accounts within the banking system.
-user.txt - File management containing information about the existing accounts creating within the banking system.
+- SimpleATM.cpp - ATM class file containing functions to create, delete, and modify accounts within the banking system.
+- user.txt - File management containing information about the existing accounts creating within the banking system.
 
 # Build and Devel
 
