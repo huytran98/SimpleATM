@@ -20,3 +20,19 @@ You can simplify some complex real world problems if you think it's not worth il
 # How To Submit
 Please upload the code for this project to GitHub or anywhere, and post a link to your repository below. Please attach the instruction to clone your project, build and run tests in README.md file in the root directory of the repository.
 
+# Directory
+
+SimpleATM.cpp - ATM class file containing functions to create, delete, and modify accounts within the banking system.
+user.txt - File management containing information about the existing accounts creating within the banking system.
+
+# Build and Devel
+
+1. Clone this repo
+2. Run the script ```./run``` to compile and run.
+3. Follow the on-screen prompts of the controller
+   - First you will be prompted to login as an admin or a user. Create a user account by logging in as an ```1. Administrator``` with the ```PIN : 1234```.
+   - Create a new user and insert a ```account number```, ```PIN```, and a ```starting balance```.
+   - ```View all users``` to make sure the account is created with the right information.
+   - Return to the main menu by selecting ```Exit```.
+   - Select to login as ```2. User``` and enter your PIN.
+   - Choose any of the options to modify or view the balance on your account.
