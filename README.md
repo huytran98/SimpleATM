@@ -1,10 +1,12 @@
 # SimpleATM
 
+Codebyte task of creating a simple ATM controller as a project for Bear Robotics.
+
 # Problem Statement
 
 Write code for a simple ATM. It doesn't need any UI (either graphical or console), but a controller should be implemented and tested.
 
-Requirements
+## Requirements
 At least the following flow should be implemented: Insert Card => PIN number => Select Account => See Balance/Deposit/Withdraw
 
 For simplification, there are only 1 dollar bills in this world, no cents. Thus account balance can be represented in integer.
@@ -20,7 +22,7 @@ You can simplify some complex real world problems if you think it's not worth il
 # How To Submit
 Please upload the code for this project to GitHub or anywhere, and post a link to your repository below. Please attach the instruction to clone your project, build and run tests in README.md file in the root directory of the repository.
 
-# Directory
+## Directory
 
 SimpleATM.cpp - ATM class file containing functions to create, delete, and modify accounts within the banking system.
 user.txt - File management containing information about the existing accounts creating within the banking system.
